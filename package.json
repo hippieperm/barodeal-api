@@ -1,0 +1,29 @@
+{
+  "name": "barodeal-api",
+  "version": "1.0.0",
+  "description": "쇼핑트렌드 1~100위를 조회할 수 있는 Node.js REST API 서버",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "shopping",
+    "trends",
+    "api",
+    "naver"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
